@@ -7,7 +7,6 @@
 
 //your code...
 
-
 var convertToCel = function(fahTemp){
     console.log(celTemp = (fahTemp - 32) * 5 / 9);
 }
@@ -23,19 +22,23 @@ var convertToFah = function(celTemp){
 convertToFah(38)
 
 
-
-
-
 /************************************************************* */
 // Problem 2:
 // Write a JavaScript function to determine if someone is old enough to vote. Declare a variable for age and write a conditional statement for whether that age is old enough to vote. Console log "yes" or "no"
 
 //your code...
 
+var votingAge = function(age){
+ if (age >= 18){
+     console.log("Yes. " + age + " year olds are allowed to vote.");
+ }
+ else {
+     console.log("No. " + age + " year olds are not allowed to vote.")
+ }
+}
 
-
-
-
+votingAge(34);
+votingAge(14);
 
 
 /************************************************************* */
