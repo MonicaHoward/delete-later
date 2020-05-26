@@ -176,7 +176,28 @@ const adjectiveArray = [ 'salty', 'spicy', 'sour', 'sweet', 'rich','creamy','ama
 // "for" loop that console.log()'s a sentence for each
 // corresponding value in the arrays. Add the word "is" or "are" depending on if the food is singular or plural.  "Potatoes are salty", "Lemon is sour".
 
+var concatThis = function(arr1, arr2){
+ for (var i = 0; i < arr1.length; i++){
+    for (var j = 0; j < arr1[i].length; j++) {
+        for (var k = 0; k < arr2.length; k++) {
+            if ( arr1[i].endsWith('s') ){
+                var word = "are";
+            }
+            else {
+                word = "is";
+            }
+            
+        } 
+        
+    }
+    console.log(arr1[i] + " " + word + " " + arr2[i])
 
+ }
+
+ 
+}
+
+concatThis(foodArray, adjectiveArray);
 
 /************************************************************* */
 // Bonus Assignment: Create 4 mathematical function expressions, add,subtract,multiply,divide.  put them in an array, and create a doMath() function that randomly does one of the 4 operations whenever it is run.  the doMath() function should print out what mathetmatical function was carried out.  The doMath() function should return the computed value of any operation performed.
