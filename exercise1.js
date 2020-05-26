@@ -103,7 +103,6 @@ carInfo(monicasCar);
 // Write a JavaScript function with a loop that will iterate from 0 to 15. Each iteration, the for loop will check if the current number is odd or even and display the output.
 
 // creating a variable to store iterator in case this value changes.
-
 var x = 15;
 
 var oddOrEven = function(x){
@@ -115,11 +114,11 @@ var oddOrEven = function(x){
                     console.log(i + " is odd!");
                 }
     }
-    
+  
     
 }
 
-oddOrEven();
+oddOrEven(x);
 
 //your code...
 
@@ -131,6 +130,8 @@ oddOrEven();
 // Write a JavaScript function that iterates the integers from 1 to 100. For multiples of 3 print "TEK" instead of the number and for multiples of 5, print "camp." For numbers that are multiples of both 3 and 5, print "TEKcamp."
 
 //your code...
+
+
 
 
 /************************************************************* */
