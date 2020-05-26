@@ -82,11 +82,22 @@ reverseNumber(num);
 
 //your code...
 
+var monicasCar = {
+    make: "Jeep",
+    model: "Cherokee",
+    year: 2019,
+    color: "white"
+}
 
+var carInfo = function(obj){
+    console.log(obj.year);
+    console.log(obj.color);
+    console.log(obj.make);
+    console.log(obj.model);
 
+}
 
-
-
+carInfo(monicasCar)
 /************************************************************* */
 // Problem 6:
 // Write a JavaScript function with a loop that will iterate from 0 to 15. Each iteration, the for loop will check if the current number is odd or even and display the output.
