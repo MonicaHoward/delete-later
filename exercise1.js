@@ -8,6 +8,20 @@
 //your code...
 
 
+var convertToCel = function(fahTemp){
+    console.log(celTemp = (fahTemp - 32) * 5 / 9);
+}
+
+//converts Fahrenheit temperature to Celsius
+convertToCel(100);
+
+var convertToFah = function(celTemp){
+    console.log(farTemp = (celTemp / 5) * 9 + 32);
+}
+
+//converts Celsius temperature to Fahrenheit
+convertToFah(38)
+
 
 
 
