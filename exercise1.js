@@ -66,8 +66,14 @@ stringToArray(str);
 
 //your code...
 
+var num = 6822471110
 
+    var reverseNumber = function(num){
+    var reversed = num.toString().split("").reverse().join("");
+    console.log("Problem 4 ", reversed);
+}
 
+reverseNumber(num);
 
 
 /************************************************************* */
