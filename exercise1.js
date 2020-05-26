@@ -131,8 +131,22 @@ oddOrEven(x);
 
 //your code...
 
+var tekCamp = function(){
+    for (var i = 01; i < 101; i++){
+        if (i % 3 == 0 && i % 5 ==0 ){
+            console.log(i + " TEKcamp");
+        }
+            else if (i % 5 == 0 ){
+                console.log(i + " camp")
+            }
+            else if (i % 3 == 0 ) {
+                console.log(i + " TEK")
+            }
+    }
+}
 
 
+tekCamp();
 
 /************************************************************* */
 // Problem 8:
