@@ -47,10 +47,17 @@ votingAge(14);
 
 //your code...
 
+var str = "The five boxing wizards jump quickly."
 
+var stringToArray = function(str){
+    //converts the string to an array of strings with each word being an individual string.
+    arrOfStrs = str.split(" ");
+    //converts the array of strings back to a single string
+    console.log(arrOfStrs);
+    console.log(arrOfStrs.join(" "));
+}
 
-
-
+stringToArray(str);
 
 
 /************************************************************* */
