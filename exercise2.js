@@ -25,6 +25,24 @@ while (i < 10)
 
 //your code...
 
+let multiply = function(x, y){
+    return result = x * y;
+}
+let divide = function(x, y){
+    return result = x / y;
+}
+let power = function(x){
+    return result = x * x;
+}
+let add = function(x, y){
+    return result = x + y
+}
+
+add(30, 2);
+multiply(add(30, 2), 20);
+console.log(multiply(add(30, 2), 20));
+
+    
 
 /************************************************************* */
 //Problem 3:
