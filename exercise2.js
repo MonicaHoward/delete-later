@@ -5,13 +5,17 @@
 //
 
 for(let i=0; i<10; i++) {
-    console.log(" the value of i in the loop is : " + i);
+    // console.log(" the value of i in the loop is : " + i);
 }
 
 
 //your code...
-
-
+let i = 0;
+do {
+    console.log(" the value of i in the while loop is : " + i);
+    i++;
+}
+while (i < 10)
 
 
 /************************************************************* */

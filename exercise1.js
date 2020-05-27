@@ -201,6 +201,7 @@ concatThis(foodArray, adjectiveArray);
 
 /************************************************************* */
 // Bonus Assignment: Create 4 mathematical function expressions, add,subtract,multiply,divide.  put them in an array, and create a doMath() function that randomly does one of the 4 operations whenever it is run.  the doMath() function should print out what mathetmatical function was carried out.  The doMath() function should return the computed value of any operation performed.
+
 const operations = [];
 function doMath() {};
 
