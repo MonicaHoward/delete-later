@@ -40,7 +40,7 @@ let add = function(x, y){
 
 add(30, 2);
 multiply(add(30, 2), 20);
-console.log(multiply(add(30, 2), 20));
+// console.log(multiply(add(30, 2), 20));
 
     
 
@@ -49,17 +49,28 @@ console.log(multiply(add(30, 2), 20));
 //Determine whether the following values are "truthy" or "falsy".  console.log() the value, whether the value is 'truthy' or 'falsy', along with your reasoning why using String interpolation.
 // values : 
 // 20
+console.log(20 + " is truthy because it is a number value greater than 0");
 // 0
+console.log( 0 + "is falsy because it has no 'value'")
 // "zero";
+console.log("The string zero is truthy because it is a string");
 // const zero = 20;
+console.log(zero + " is a truthy because it is a string with a truthy value");
 // null
+console.log(null + " is falsey because it doesn't have a value");
 // "0"
+console.log("this is truthy")
 // !""
+console.log("this is the same as undefined so it is falsy")
 // {}
+console.log("an empty object is the same as undefined so it is falsy")
 // () => {console.log("hello TEKcamp!");
 // 125
+console.log(125 + " is truthy")
 // undefined
+console.log(undefined + " is falsey because it doesn't have a value");
 // ""
+console.log("an empty string is the same as undefined so it is falsey because it doesn't have a value");
 
 
 
